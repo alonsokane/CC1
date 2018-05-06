@@ -1,0 +1,3 @@
+C:/Projects/C++/CC1/TEMP/cmake-build-debug/CMakeFiles/TEMP.dir
+C:/Projects/C++/CC1/TEMP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Projects/C++/CC1/TEMP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
