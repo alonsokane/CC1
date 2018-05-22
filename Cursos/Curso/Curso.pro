@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        Pract1.cpp
+        main.cpp \
+    curso.cpp
+
+HEADERS += \
+    curso.h

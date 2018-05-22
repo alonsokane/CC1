@@ -1,3 +1,0 @@
-C:/Projects/C++/Trabajo-Practico-1/cmake-build-debug/CMakeFiles/Trabajo_Practico_1.dir
-C:/Projects/C++/Trabajo-Practico-1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Projects/C++/Trabajo-Practico-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
