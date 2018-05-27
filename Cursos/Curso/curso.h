@@ -1,13 +1,16 @@
 #ifndef CURSO_H
 #define CURSO_H
 #include <string>
+#include "/home/jjac1999/Projects/CC1/Vector/vector/vector.h"
 
 class Curso {
 private:
-    std::string nombre;
-    float notas[5];
+    std::string name;
+    int size;
+    double *notas;
+
 public:
-    Curso(std::string, int, int, int, int, int);
+    Curso(std::string, double*,int);
     //float obtenerPromedio
 };
 

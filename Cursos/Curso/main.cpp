@@ -3,7 +3,10 @@
 
 int main()
 {
-    Curso cur1;
+    int tam=4;
+    double notas[tam]{6,12,17,2};
+    Curso cur1("zoologia",notas,tam);
+
 
 
 

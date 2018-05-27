@@ -69,36 +69,53 @@ void concatenar(char str1[], const char str2[]) {
 }
 
 
+
+
+void imprimir(int n,int index=0){
+    if(index>n)
+        return;
+    std::cout<<index<<" ";
+    imprimir(n,index+1);
+}
+
+
 int main() {
-    int tam = 5;
-    int x[tam] = {1, 2, 3, 4, 5};
-
-    std::cout << sumArr(x, tam) << std::endl;
-
-    invertir(x, tam);
-
-    //Imprime elementos invertidos
-    for (int i = 0; i < tam; i++) {
-        std::cout << x[i] << " ";
-    }
-    std::cout << "\n";
-
-    char texto[] = "hello world";
-    std::cout << "Length del char: " << texto << " = " << lengthStr(texto) << std::endl;
-
-
-    char string1[] = "12345691984191";
-    char string2[] = "qwerty";
-    copiarStr(string1, string2);
-    std::cout << string1 << std::endl;
+    int n=5;
+    imprimir(n);
 
 
 
-    char con1[] = "1d fh  4t                ";
-    char con2[] = "qwerty";
 
-    concatenar(con1, con2);
-    std::cout << con1 << std::endl;
+    std::cout<<std::endl;
+    //    int tam = 5;
+//    int x[tam] = {1, 2, 3, 4, 5};
+
+//    std::cout << sumArr(x, tam) << std::endl;
+
+//    invertir(x, tam);
+
+//    //Imprime elementos invertidos
+//    for (int i = 0; i < tam; i++) {
+//        std::cout << x[i] << " ";
+//    }
+//    std::cout << "\n";
+
+//    char texto[] = "hello world";
+//    std::cout << "Length del char: " << texto << " = " << lengthStr(texto) << std::endl;
+
+
+//    char string1[] = "12345691984191";
+//    char string2[] = "qwerty";
+//    copiarStr(string1, string2);
+//    std::cout << string1 << std::endl;
+
+
+
+//    char con1[] = "1d fh  4t                ";
+//    char con2[] = "qwerty";
+
+//    concatenar(con1, con2);
+//    std::cout << con1 << std::endl;
 
 
 }
